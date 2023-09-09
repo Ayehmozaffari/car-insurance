@@ -4,15 +4,22 @@
 
 body{
     font-family: 'Rubik', sans-serif;
-  
+    display: flex;
+    place-items: center;
+    justify-content: center;
 }
 .container{
-    margin: 0;
+    /* margin: 0;
     
     
     display: flex;
     place-items: center;
-    justify-content: center;
+    justify-content: center; */
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+   
 }
 .blue-dot{
     background:linear-gradient(40deg,rgba(152, 240, 230, 0.896),rgb(70, 216, 187));
@@ -26,6 +33,9 @@ body{
      left: -4%;
      top:-5%;
      box-shadow: 3px 2px 2px#ccc;
+     display: flex;
+     place-items: center;
+     justify-content: center;
 }
 .blue-dot:hover{
     background: rgb(37, 255, 255);
@@ -43,7 +53,8 @@ body{
      position: absolute;
     margin-bottom: -1200px;
      margin-right: -1400px;
-     
+     transform: rotate(360deg);
+     transition: 3s;
 }
 .purple-dot2{
     background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
@@ -57,7 +68,8 @@ body{
      position: absolute;
     margin-bottom: -1000px;
      margin-right: -1400px;
- 
+     transform: rotate(360deg);
+     transition: 3s;
 }
 .purple-dot3{
     background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
@@ -71,7 +83,8 @@ body{
      position: absolute;
     margin-bottom: -900px;
      margin-right: -1300px;
-     
+     transform: rotate(360deg);
+     transition: 3s;
 }
 .purple-dot4{
     background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
@@ -85,7 +98,8 @@ body{
      position: absolute;
     margin-bottom: -800px;
      margin-right: -1200px;
-    
+     transform: rotate(360deg);
+     transition: 3s;
 }
 .purple-dot:hover{
 
@@ -126,6 +140,90 @@ transition: 0.3s;
     margin-top: 600px;
     margin-right: -800px;
     display: flex;
+    animation: mymove 5s infinite;
+    transform:rotate(340deg);
+    transition:3s;
+}
+
+  .purple-dots:hover{
+    transform: rotate(36deg) scale(-1.5) ;
+  }
+  .cars{
     
-     
+  }
+
+
+ 
+.cars{
+ 
+    padding: 10px 30px 10px 30px;
+    border: none;background-color: rgb(243, 243, 255);
+    border-radius:20px 20px  ;
+    outline: none;
+
+text-shadow: 0 0 16px #000000;
+animation-name: shain;
+animation-iteration-count: infinite;
+ animation-duration: 2s;
+
+    }
+ 
+@keyframes shain {  
+0% {  
+box-shadow: 0 0 5px #f57e47;  
+}  
+100% {  
+box-shadow: 0 0 80px #e7b04a00;  
+}  
+}  
+.date2{
+    padding: 10px 10px 10px 10px;
+    border: none;background-color: rgb(243, 243, 255);
+    border-radius:20px 20px  ;
+    outline: none;
+
+text-shadow: 0 0 16px #000000;
+animation-name: shain;
+animation-iteration-count: infinite;
+ animation-duration: 2s;
+ 
+}
+.kind1{
+    float:right;
+   margin-left: -120px;
+   margin-top: 30px;
+   font-size: 14px;
+    margin-top: 60px;
+  margin-bottom:-50px ;
+  display: block;
+}
+.kind2{
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+  margin-bottom:-60px ;
+}
+.calc-btn{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    background: #f57e47;
+    margin-top: 80px;
+    margin-left: 70px;
+    animation-name: chain;
+animation-iteration-count: infinite;
+ animation-duration: 2s;
+}
+@keyframes chain {  
+    0% {  
+    box-shadow: 0 0 5px #a6efef;  
+    }  
+    100% {  
+    box-shadow: 0 0 80px #e7b04a00;  
+    }  
+    }
+.insurance{
+    
+    border: 2px solid #e7b04a00;
 }
