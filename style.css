@@ -1,0 +1,131 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+  
+}
+.container{
+    margin: 0;
+    
+    
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.blue-dot{
+    background:linear-gradient(40deg,rgba(152, 240, 230, 0.896),rgb(70, 216, 187));
+    border-radius: 700px 700px;
+    width: 200px;
+     height: 200px;
+     display: flex;
+    place-items: center;
+    justify-content: center;
+     position: absolute;
+     left: -4%;
+     top:-5%;
+     box-shadow: 3px 2px 2px#ccc;
+}
+.blue-dot:hover{
+    background: rgb(37, 255, 255);
+    transition: 1.3s;
+}
+.purple-dot{
+    background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
+    border-radius: 50% 50%;
+    width: 150px; 
+    height: 100px;
+    
+    display: flex;
+    place-items: center;
+    justify-content: center;
+     position: absolute;
+    margin-bottom: -1200px;
+     margin-right: -1400px;
+     
+}
+.purple-dot2{
+    background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
+    border-radius: 50% 50%;
+    width: 150px; 
+    height: 100px;
+    rotate: 320deg;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+     position: absolute;
+    margin-bottom: -1000px;
+     margin-right: -1400px;
+ 
+}
+.purple-dot3{
+    background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
+    border-radius: 50% 50%;
+    width: 150px; 
+    height: 100px;
+    rotate: 280deg;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+     position: absolute;
+    margin-bottom: -900px;
+     margin-right: -1300px;
+     
+}
+.purple-dot4{
+    background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
+    border-radius: 50% 50%;
+    width: 150px; 
+    height: 100px;
+    rotate: 240deg;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+     position: absolute;
+    margin-bottom: -800px;
+     margin-right: -1200px;
+    
+}
+.purple-dot:hover{
+
+    background: rgb(255, 101, 204);
+    border: 0.25px solid #fff;
+    transition: 0.3s;
+    }
+.purple-dot2:hover{
+
+background: rgb(255, 101, 204);
+border: 0.25px solid #fff;
+transition: 0.3s;
+}
+.purple-dot3:hover{
+
+    background: rgb(255, 101, 204);
+    border: 0.25px solid #fff;
+    transition: 0.3s;
+    }
+    .purple-dot4:hover{
+
+        background: rgb(255, 101, 204);
+        border: 0.25px solid #fff;
+        transition: 0.3s;
+        }
+.violet-dot1{
+    background:linear-gradient(40deg,rgba(233, 176, 255, 0.896),rgb(196, 52, 228));border-radius: 50% 50%;width: 100px; height: 100px;text-indent: none;
+    margin-top: 160px;box-shadow: 0px 2px 2px#ccc;
+    rotate: 350deg;
+}
+.violet-dot:hover{
+   
+    background: rgb(241, 86, 255);transform: rotate(360deg) scale(-1.5);
+    transition: 1.3s;
+}
+.purple-dots{
+    display: flex;
+    margin-top: 600px;
+    margin-right: -800px;
+    display: flex;
+    
+     
+}
