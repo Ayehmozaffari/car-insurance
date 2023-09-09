@@ -137,7 +137,7 @@ transition: 0.3s;
 }
 .purple-dots{
     display: flex;
-    margin-top: 600px;
+    margin-top: 300px;
     margin-right: -800px;
     display: flex;
     animation: mymove 5s infinite;
@@ -148,9 +148,7 @@ transition: 0.3s;
   .purple-dots:hover{
     transform: rotate(36deg) scale(-1.5) ;
   }
-  .cars{
-    
-  }
+
 
 
  
@@ -181,7 +179,7 @@ box-shadow: 0 0 80px #e7b04a00;
     border: none;background-color: rgb(243, 243, 255);
     border-radius:20px 20px  ;
     outline: none;
-
+    font-family: 'Rubik', sans-serif;
 text-shadow: 0 0 16px #000000;
 animation-name: shain;
 animation-iteration-count: infinite;
@@ -191,17 +189,22 @@ animation-iteration-count: infinite;
 .kind1{
     float:right;
    margin-left: -120px;
-   margin-top: 30px;
+   margin-top: -50px;
    font-size: 14px;
     margin-top: 60px;
-  margin-bottom:-50px ;
+
   display: block;
+}
+.kind1 label{
+    text-align: right;margin-right: -300px;
+    display: flex;
 }
 .kind2{
     display: block;
     font-size: 14px;
     margin-top: 20px;
   margin-bottom:-60px ;
+  text-align: right;
 }
 .calc-btn{
     padding: 10px 30px 10px 30px;
@@ -226,4 +229,13 @@ animation-iteration-count: infinite;
 .insurance{
     
     border: 2px solid #e7b04a00;
+}
+.kind1{
+    font-family: 'Rubik', sans-serif; 
+}
+.inp-radio{
+    font-family: 'Rubik', sans-serif;
+}
+.kind-of-isc{
+    display: flex;
 }
