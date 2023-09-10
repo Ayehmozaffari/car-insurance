@@ -35,8 +35,10 @@ body{
      box-shadow: 3px 2px 2px#ccc;
      display: flex;
      place-items: center;
-     justify-content: center;
+     justify-content: center; animation: transform-to-right 1.3s forwards;
 }
+
+
 .blue-dot:hover{
     background: rgb(37, 255, 255);
     transition: 1.3s;
@@ -55,6 +57,7 @@ body{
      margin-right: -1400px;
      transform: rotate(360deg);
      transition: 3s;
+     
 }
 .purple-dot2{
     background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
@@ -70,6 +73,7 @@ body{
      margin-right: -1400px;
      transform: rotate(360deg);
      transition: 3s;
+     
 }
 .purple-dot3{
     background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
@@ -85,6 +89,7 @@ body{
      margin-right: -1300px;
      transform: rotate(360deg);
      transition: 3s;
+   
 }
 .purple-dot4{
     background:linear-gradient(40deg,rgba(255, 102, 196, 0.896),rgb(196, 52, 228));
@@ -100,6 +105,7 @@ body{
      margin-right: -1200px;
      transform: rotate(360deg);
      transition: 3s;
+     
 }
 .purple-dot:hover{
 
@@ -129,6 +135,7 @@ transition: 0.3s;
     background:linear-gradient(40deg,rgba(233, 176, 255, 0.896),rgb(196, 52, 228));border-radius: 50% 50%;width: 100px; height: 100px;text-indent: none;
     margin-top: 160px;box-shadow: 0px 2px 2px#ccc;
     rotate: 350deg;
+  
 }
 .violet-dot:hover{
    
@@ -143,6 +150,7 @@ transition: 0.3s;
     animation: mymove 5s infinite;
     transform:rotate(340deg);
     transition:3s;
+   
 }
 
   .purple-dots:hover{
@@ -163,7 +171,7 @@ text-shadow: 0 0 16px #000000;
 animation-name: shain;
 animation-iteration-count: infinite;
  animation-duration: 2s;
-
+ animation: transform-to-bottom 1.3s forwards;
     }
  
 @keyframes shain {  
@@ -184,27 +192,30 @@ text-shadow: 0 0 16px #000000;
 animation-name: shain;
 animation-iteration-count: infinite;
  animation-duration: 2s;
- 
+ animation: transform-to-bottom 1.3s forwards;
 }
 .kind1{
     float:right;
-   margin-left: -120px;
+   /* margin-left: -120px;
    margin-top: -50px;
-   font-size: 14px;
-    margin-top: 60px;
-
+   font-size: 14px; */
+    margin-top: 30px;
+    animation: transform-to-bottom 1.3s forwards;
   display: block;
 }
 .kind1 label{
     text-align: right;margin-right: -300px;
     display: flex;
+    animation: transform-to-bottom 1.3s forwards;
 }
 .kind2{
     display: block;
     font-size: 14px;
-    margin-top: 20px;
-  margin-bottom:-60px ;
+    /* margin-top: 20px;
+  margin-bottom:-60px ; */
   text-align: right;
+  margin-top: 30px;
+  animation: transform-to-bottom 1.3s forwards;
 }
 .calc-btn{
     padding: 10px 30px 10px 30px;
@@ -229,13 +240,68 @@ animation-iteration-count: infinite;
 .insurance{
     
     border: 2px solid #e7b04a00;
+    animation: transform-to-bottom 1.3s forwards;
 }
 .kind1{
+    animation: transform-to-bottom 1.3s forwards;
     font-family: 'Rubik', sans-serif; 
 }
 .inp-radio{
     font-family: 'Rubik', sans-serif;
+    animation: transform-to-bottom 1.3s forwards;
 }
 .kind-of-isc{
     display: flex;
+    animation: transform-to-bottom 1.3s forwards;
+}
+.kind1 input{
+    accent-color: #ff4e48;
+    animation: transform-to-bottom 1.3s forwards;
+}
+.kind2 input{
+    accent-color: #ff4e48;
+    animation: transform-to-bottom 1.3s forwards;
+}
+@keyframes transform-to-right {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.calc-btn:hover{
+
+  background: url(the-car-goes-in-the-neon-city-cars-live-wallpaper-download-free-14422.gif);
+  color: #fff;
+  cursor: pointer;
+  transition: 3s;
+}
+.kind-of-isc{
+    animation: transform-to-bottom 1.3s forwards;
+}
+@keyframes transform-to-right {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes transform-to-bottom {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
